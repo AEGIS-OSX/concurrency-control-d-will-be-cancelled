@@ -62,7 +62,7 @@ export default function Hero() {
           <motion.a
             variants={itemVariants}
             href="tel:5550124"
-            className="font-[family-name:var(--font-body)] text-[var(--text-base)] font-semibold text-[var(--color-text)] underline underline-offset-[3px] whitespace-nowrap transition-colors duration-150 ease-[var(--ease-out)] hover:text-[var(--color-accent)] active:text-[var(--color-accent)]/80"
+            className="font-[family-name:var(--font-body)] text-[var(--text-base)] font-semibold text-[var(--color-text)] underline underline-offset-[3px] whitespace-nowrap transition-colors duration-150 ease-[var(--ease-out)] hover:text-[var(--color-accent)] active:text-[var(--color-accent)]/80 focus-visible:outline focus-visible:outline-2 focus-visible:outline-[var(--color-focus)] focus-visible:outline-offset-2"
           >
             555.0124
           </motion.a>
