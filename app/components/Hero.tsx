@@ -1,9 +1,9 @@
 "use client";
 
-import { motion } from "framer-motion";
+import { motion, Variants } from "framer-motion";
 import { ProjectImage } from "@/app/components/ProjectImage";
 
-const containerVariants = {
+const containerVariants: Variants = {
   hidden: {},
   visible: {
     transition: {
@@ -13,7 +13,7 @@ const containerVariants = {
   },
 };
 
-const itemVariants = {
+const itemVariants: Variants = {
   hidden: { opacity: 0, y: 24 },
   visible: {
     opacity: 1,
@@ -28,7 +28,7 @@ const itemVariants = {
 export default function Hero() {
   return (
     <motion.section
-      className="section-dark hero-section pt-[var(--space-16)] pb-[10rem] px-[var(--space-3)] min-[480px]:px-[var(--space-4)]"
+      className="section-dark hero-section pt-[var(--space-16)] pb-40 px-[var(--space-3)] sm:px-[var(--space-4)]"
     >
       <div className="container">
         <motion.div
@@ -48,21 +48,21 @@ export default function Hero() {
             />
           </motion.div>
           <motion.h1
-            className="font-[family-name:var(--font-display)] text-[var(--text-3xl)] md:text-[var(--text-4xl)] font-bold leading-[1.05] tracking-[-0.03em] text-[var(--color-text)] [overflow-wrap:anywhere] min-w-0 mb-[var(--space-3)]"
             variants={itemVariants}
+            className="font-[family-name:var(--font-display)] text-[var(--text-3xl)] md:text-[var(--text-4xl)] font-bold leading-[1.05] tracking-[-0.03em] text-[var(--color-text)] break-words min-w-0 mb-[var(--space-3)]"
           >
             Cog & Chain
           </motion.h1>
           <motion.p
-            className="font-[family-name:var(--font-body)] text-[var(--text-lg)] font-normal leading-[1.4] text-[var(--color-accent)] mb-[var(--space-6)]"
             variants={itemVariants}
+            className="font-[family-name:var(--font-body)] text-[var(--text-lg)] font-normal leading-[1.4] text-[var(--color-accent)] mb-[var(--space-6)]"
           >
             Your bike, fixed right.
           </motion.p>
           <motion.a
-            href="tel:5550124"
-            className="font-[family-name:var(--font-body)] text-[var(--text-base)] font-semibold text-[var(--color-text)] underline underline-offset-[3px] whitespace-nowrap hover:text-[var(--color-accent)] active:text-[var(--color-accent)]/80 transition-colors duration-150 [transition-timing-function:var(--ease-out)] focus-visible:outline focus-visible:outline-2 focus-visible:outline-[var(--color-focus)] focus-visible:outline-offset-2"
             variants={itemVariants}
+            href="tel:5550124"
+            className="font-[family-name:var(--font-body)] text-[var(--text-base)] font-semibold text-[var(--color-text)] underline underline-offset-[3px] whitespace-nowrap transition-colors duration-150 ease-[var(--ease-out)] hover:text-[var(--color-accent)] active:text-[var(--color-accent)]/80"
           >
             555.0124
           </motion.a>
