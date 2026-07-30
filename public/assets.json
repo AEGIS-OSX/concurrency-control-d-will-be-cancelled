@@ -1,7 +1,7 @@
 {
   "logo": {
-    "url": "",
-    "alt": "",
+    "url": "https://zkvkbpxrxnfynqqeytke.supabase.co/storage/v1/object/public/marketing-assets/concurrency-control-d-will-be-cancelled/cleo/1785451941497-logo.png",
+    "alt": "A minimalist vector logo mark for Cog & Chain featuring a geometric synthesis of a chain link and cog tooth in Amber Lamp #D4882A against a solid Forge Black #1A1A18 background.\n\nDEFENSE:\n- CHOICE: A ",
     "width": 1024,
     "height": 1024
   },
@@ -12,27 +12,33 @@
     "height": 1080
   },
   "feature_1": {
-    "url": "",
-    "alt": "",
+    "url": "https://zkvkbpxrxnfynqqeytke.supabase.co/storage/v1/object/public/marketing-assets/concurrency-control-d-will-be-cancelled/cleo/1785451777752-feature_1.png",
+    "alt": "A macro study of mechanical precision, showing grease-stained hands working on a steel derailleur under a warm amber spotlight. This image anchors the About section by documenting the tactile reality ",
     "width": 800,
     "height": 600
   },
   "feature_2": {
-    "url": "",
-    "alt": "",
+    "url": "https://zkvkbpxrxnfynqqeytke.supabase.co/storage/v1/object/public/marketing-assets/concurrency-control-d-will-be-cancelled/cleo/1785451784621-feature_2.png",
+    "alt": "A macro document of the repair process, focusing on the tactile reality of the workshop. The image captures the precision and grit of a working bike shop through a tight crop on mechanical adjustment.",
     "width": 800,
     "height": 600
   },
   "feature_3": {
-    "url": "",
-    "alt": "",
+    "url": "https://zkvkbpxrxnfynqqeytke.supabase.co/storage/v1/object/public/marketing-assets/concurrency-control-d-will-be-cancelled/cleo/1785451781311-feature_3.png",
+    "alt": "A macro shot of a mechanic's hands performing a precision derailleur adjustment, emphasizing the tactile, grease-stained reality of the shop. The lighting uses the locked Amber Lamp accent to highligh",
     "width": 800,
     "height": 600
   },
   "social_proof": {
-    "url": "",
-    "alt": "",
+    "url": "https://zkvkbpxrxnfynqqeytke.supabase.co/storage/v1/object/public/marketing-assets/concurrency-control-d-will-be-cancelled/cleo/1785452052208-social_proof.png",
+    "alt": "A macro shot of a mechanic's hands performing a precise derailleur adjustment, emphasizing the shop's focus on technical competence and the physical reality of the work.\n\nDEFENSE:\n- CHOICE: A tight ma",
     "width": 1200,
     "height": 800
+  },
+  "about": {
+    "url": "https://zkvkbpxrxnfynqqeytke.supabase.co/storage/v1/object/public/marketing-assets/bbd5b51f-7f6b-4fe6-898b-05e18bf4988b/cleo/1785451694723-cog-chain-about-wheel-truing-stand-amber.png",
+    "alt": "concurrency-control-d-will-be-cancelled about",
+    "width": 1536,
+    "height": 1024
   }
 }
